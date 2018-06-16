@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  Complex.cpp
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(32): error C3867: 'Complex::getRealPart': non-standard syntax; use '&' to create a pointer to member
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(32): error C2296: '+': illegal, left operand has type 'double (__thiscall Complex::* )(void)'
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(32): error C2297: '+': illegal, right operand has type 'double (__thiscall Complex::* )(void)'
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(33): error C3867: 'Complex::getImaginaryPart': non-standard syntax; use '&' to create a pointer to member
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(33): error C2296: '+': illegal, left operand has type 'double (__thiscall Complex::* )(void)'
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(33): error C2297: '+': illegal, right operand has type 'double (__thiscall Complex::* )(void)'
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(118): fatal error C1071: unexpected end of file found in comment
+  HW14.7.cpp
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(32): error C3867: 'Complex::getRealPart': non-standard syntax; use '&' to create a pointer to member
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(32): error C2296: '+': illegal, left operand has type 'double (__thiscall Complex::* )(void)'
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(32): error C2297: '+': illegal, right operand has type 'double (__thiscall Complex::* )(void)'
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(33): error C3867: 'Complex::getImaginaryPart': non-standard syntax; use '&' to create a pointer to member
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(33): error C2296: '+': illegal, left operand has type 'double (__thiscall Complex::* )(void)'
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(33): error C2297: '+': illegal, right operand has type 'double (__thiscall Complex::* )(void)'
+c:\users\cathy\desktop\hw6\hw14.7\hw14.7\complex.cpp(118): fatal error C1071: unexpected end of file found in comment
+  Generating Code...
