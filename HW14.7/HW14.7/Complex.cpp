@@ -5,6 +5,8 @@
 #include <math.h>
 using namespace std;
 
+//PT -- 10/20
+
 Complex::Complex()
 {
 	realpart = 0;
@@ -29,9 +31,20 @@ double Complex::getImaginaryPart() {
 	return imaginepart;
 }
 
+//PT -- these should return the sum of the two complex numbers:
+//Complex Complex::add(Complex one, Complex two) {
 void Complex::add(Complex one, Complex two) {
+	//PT -- these are function calls
+	// one.getRealPart() + two.getRealPart();
 	one.getRealPart + two.getRealPart;
 	one.getImaginaryPart + two.getImaginaryPart;
+	
+	//PT -- and then you need to combine them
+	/*
+	double r = one.getRealPart() + two.getRealPart();
+	double i = one.getImaginaryPart + two.getImaginaryPart();
+	return Complex(r, i);
+	*/
 }
 
 void Complex::subtract(Complex one, Complex two) {
@@ -54,7 +67,7 @@ void Complex::abs(Complex& ob) {
 }
 
 string Complex::toString(double a, double b) {
-
+//PT -- check out stringstream. It combines values into a string nicely.
 	string real = to_string(a);
 	string imagine = to_string(b);
 	string i = "i";
@@ -63,6 +76,7 @@ string Complex::toString(double a, double b) {
 }
 
 double Complex::operator +(const Complex& ob) {
+	//PT -- just call add here
 	Complex brandnew;
 	brandnew.realpart = realpart + ob.realpart;
 	brandnew.imaginepart = imaginepart + ob.imaginepart;
@@ -96,6 +110,8 @@ double operator /(const Complex& ob) {
 // Am confused as to what goes under these functions. 
 double operator +=(const Complex& ob)
 {
+	//PT -- you're adding this to ob
+	//return add(*this, ob);
 return  ob;
 
 }
